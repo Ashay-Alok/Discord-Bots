@@ -118,7 +118,7 @@ async def on_message(message):
 #Channel specific reactions
     #To the Magic channel
     if message.channel.id==885106960813408306:
-        rand11=random.randint(0,50)
+        rand11=random.randint(0,500)
         if rand11==0:
             await message.channel.send(r"https://tenor.com/view/the-office-michael-scott-i-work-with-a-bunch-of-nerds-nerds-i-work-with-nerds-gif-20508473")
         if rand11==1:
